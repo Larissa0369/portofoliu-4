@@ -1,0 +1,19 @@
+
+table,th,td {
+border: 2px pink;
+}
+body{
+background-color: purple;
+}
+h1{
+color:blue;
+}
+h2{
+color:green;
+}
+h3{
+color:solid purple;
+text-align: center;
+text-size:30px
+}
+
