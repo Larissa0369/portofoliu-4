@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet"href="style.css">
+<body id = "body>
+</button>
+<a hren="cuprins.html">Cuprins</a>
+<button id="button">Alta viata</button>
+
+
 <html>
 	<head>
 		<title>Student</title>
@@ -26,6 +37,7 @@ text-size:30px;
 		<h1>Nume: Sofrac</h1>
 <h2>Prenume: Larissa-Maria</h2>
 <h3>E-mail: Sofrac.Io.Larissa@student.utcluj.ro</h3>
+<p>id="anNastere">2006</p>
 
 <img src="images\Picture1.jpg">
 
@@ -53,9 +65,46 @@ Hobby-uri:
 <li>Tenis</li>
 <li>Desen</li>
 </ol>
+<script>
+// Cache the DOM
+var button = document.getElementById("button")
+var nume = document.getElementById("nume")
+var prenume = document.getElementById("prenume")
+var educatie=document.getElementById("educatie")
+var asteptari= document.getElementId("asteptari")
+var img = document.querySelector("img")
+var body = document.querySelector("body")
+var an= document.getElementId("anNastere")
 
+//Add event listener
+button.addEventlistener("click",altaViata)
+an.addEventListener("mouseover", displayAge)
+
+const d= new Date()
+var year = d.getFullAge () 
+
+
+//Define function
+function displayAge() {
+an.innerHTML=year - an.innerHTML
+}  
+
+//Define function
+function altaViata () {
+nume.innerHTML= "inginer"
+prenume.innerHTML = "Google"
+educatie.innerHTML = "Experiente"
+asteptari.innerHTML="<ul><li>Workshops</li>
+<li>Intership</li></ul>"
+     
+img.src="images/lion.jpg"
+img.style.opacity= "70%"
+img.style.width= "500px"
+img.style.height = "400px"
+img.style.border = "2px solid black"
+</script>
 
 
 
 	</body>
-</html>														                         
+</html>	
